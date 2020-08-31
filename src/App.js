@@ -29,7 +29,7 @@ function App() {
         ?
           <h1>Cargando...</h1>
         : 
-          <News new={news}/>
+          <News news={news}/>
       )}
       
     </>

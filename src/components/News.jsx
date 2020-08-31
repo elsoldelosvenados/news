@@ -1,7 +1,15 @@
 import React from 'react'
-const News = () => {
+
+import NewCard from './NewCard'
+const News = ({news}) => {
+    console.log('--------')
+    console.log(news)
     return ( 
-        <p>Lista News</p>
+        <div className="news-container">
+            {news.map(newObject => (
+                <NewCard NewObject={newObject}/>
+            ))}
+        </div>
      );
 }
  
