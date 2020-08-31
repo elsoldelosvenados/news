@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 586 337" width="586" height="337">
+	<defs>
+		<image width="1280" height="720" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAALQAQMAAAD1s08VAAAAAXNSR0IB2cksfwAAAANQTFRF////p8QbyAAAAIdJREFUeJztwTEBAAAAwqD1T20JT6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAeBrE3wABB8CymgAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: none;stroke: #00ff00;stroke-width: 8.4 } 
+		.txt1 { font-size: 150px;fill: #349f0b;font-weight: 400;font-family: "DenkOne-Regular", "Denk One" } 
+	</style>
+	<use id="Background" style="opacity: 0" href="#img1" x="-350" y="-186" />
+	<path id="Shape 1" class="shp0" d="M65 41L515 41C520.53 41 525 45.47 525 51L525 298C525 303.53 520.53 308 515 308L65 308C59.47 308 55 303.53 55 298L55 51C55 45.47 59.47 41 65 41Z" />
+	<text id="NEWS " style="transform: matrix(1,0,0,1,103,112)" >
+		<tspan x="0" y="150" class="txt1">NEWS</tspan>
+	</text>
+</svg>

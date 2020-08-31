@@ -4,11 +4,51 @@
 }
 body{
     width: 100%;
-    background-color: black;
+    ;
 }
 
 .header-container{
     width: 100%;
-    background-color:orange;
-    height: auto;
+    background-color: black;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 15% 1fr;
+    align-content: center;
+    -webkit-box-shadow: 3px 10px 14px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 10px 14px -2px rgba(0,0,0,0.75);
+    box-shadow: 3px 10px 14px -2px rgba(0,0,0,0.75);
+
+}
+.over-logo{
+    position:absolute;
+    display:none;
+}
+
+.logo {
+    width: 100%;
+    height: 80px;
+}
+
+.form{
+    display:flex;
+    align-items: center;
+    width: 100%;
+}
+.form form {
+    width: 80%;
+    margin: auto;
+}
+.news-select{
+    height: 50px;
+    margin: auto;
+    width: 100%;
+    font-weight: bold;
+    font-size:1.5rem;
+    color:rgb(42, 49, 43) ;
+}
+.news-select:focus{
+    outline-color: green;
+}
+.news-select option{
+    border-color: green solid 4px;
 }
