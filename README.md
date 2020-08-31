@@ -26,5 +26,5 @@ finally we run project
 
 `npm run start`
 
-###Lincence
+### Lincence
     [MIT](https://github.com/andrewakosta/news/blob/master/LICENSE)
