@@ -1,11 +1,11 @@
 import React from 'react'
 
 import useSelect from '../hooks/useSelect'
-const Form = () => {
+const Form = ({setCategory}) => {
     const CATEGORIES = [
         {value:'general', label:'Generlal'}, 
-        {value:'bussines',label:'Bussines'},
-        {value:'entertaiment',label:'Entertaiment'},
+        {value:'business',label:'Bussines'},
+        {value:'entertainment',label:'Entertaiment'},
         {value:'health',label:'Health'},
         {value:'science',label:'Science'},
         {value:'sports',label:'Sports'},
@@ -13,10 +13,13 @@ const Form = () => {
     ]
     //Using customize hook
     const [category, NewsSelect] = useSelect('science', CATEGORIES)
-    
+    const handleForm = e =>{
+        e.preventDefault()
+        setCategory(e.target.value)
+    }
     return ( 
         <div className="form">
-            <form >
+            <form onChange={handleForm}>
                 <NewsSelect/>
             </form>
         </div>

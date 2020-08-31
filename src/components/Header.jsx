@@ -2,11 +2,11 @@ import React from 'react'
 
 import Logo from './Logo'
 import Form from './Form'
-const Header = () => {
+const Header = ({setCategory}) => {
     return ( 
         <div className="header-container">
             <Logo/>
-            <Form/>
+            <Form setCategory={setCategory}/>
         </div>
      );
 }
